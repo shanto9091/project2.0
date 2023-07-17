@@ -261,3 +261,81 @@ span{
 .productbox p{
     margin-top: 10px;
 }
+
+
+/* Mobile View*/
+
+@media(max-width:768px){
+    .logo a{
+        font-size: 13px;
+    }
+    .logo{
+        left: 14px;
+        top: 18px;
+    }
+    .searcharia{
+        top: 10px;
+        right: 32px;
+        height: 30px;
+        width: 122px;
+    }
+
+    .iconaria{
+        left: 5px;
+    }
+    .iconaria a{
+        padding: 15px 8px;
+    }
+    .section1 img{
+        height: 88px;
+    }
+    .section1{
+        top: 18%;
+    }
+    .section1button{
+        top: 24%;
+        left: 72%;
+    }
+    .section1button h1, h2{
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    .section1button .section1btn{
+        width: 61px;
+        height: 24px;
+    }
+
+    .productsection{
+        margin-top: -433px;
+        width: 64%;
+    }
+    .productsection h3{
+        font-size: 21px;
+        letter-spacing: 0px;
+    }
+    .productbox img{
+        height: 64px;
+    }
+
+    .productbox{
+        height: 145px;
+        margin: 11px 30px;
+    }
+    .productbox p{
+        font-size: 9px;
+    }
+    .buybtn{
+        width: 61px;
+        height: 24px;
+    }
+    .aboutbox h4{
+        font-size: 1rem;
+    }
+    .aboutbox h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .aboutbox{
+        width: 61%;
+    }
+}
